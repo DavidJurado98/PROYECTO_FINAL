@@ -1,4 +1,5 @@
-#Scapy es una libreria de Python.
+#Scapy es una biblioteca de Python para la manipulación de paquetes de la red.
+
 #Instalacion:
 $ sudo pip install scapy
 $ apt-get update
