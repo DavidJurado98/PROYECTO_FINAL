@@ -1,8 +1,0 @@
-#Para crear el archivo en python ponemos lo siguiente:
-nano nombre.py
-
-#Necesitamos darle permisos
-chmod +x nombre.py
-
-#Para ejecutar el script:
-./nombre.py
