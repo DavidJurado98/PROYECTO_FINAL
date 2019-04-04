@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # La direccion para ipv6 no es necesaria para  este programa 
-# entonces ponemos esto para que no salte el WARNING
+# entonces añadimos la linea 4 y 5 para que no salte el WARNING
 import logging
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 

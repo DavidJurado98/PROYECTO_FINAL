@@ -1,0 +1,4 @@
+#Scapy es una libreria de Python.
+#Instalacion:
+$ sudo pip install scapy
+$ apt-get update
