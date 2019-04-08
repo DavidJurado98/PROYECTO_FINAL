@@ -1,3 +1,4 @@
+#TURORIAL DE SCRIPS
 #Para crear el archivo en python ponemos lo siguiente:
 nano nombre.py
 
