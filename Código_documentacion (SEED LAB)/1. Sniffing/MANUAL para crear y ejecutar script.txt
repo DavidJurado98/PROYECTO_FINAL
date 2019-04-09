@@ -1,4 +1,4 @@
-#TURORIAL DE SCRIPS
+#MANUAL DE PERMISOS DE SCRIPTS (Crear y ejecutar)
 #Para crear el archivo en python ponemos lo siguiente:
 nano nombre.py
 
