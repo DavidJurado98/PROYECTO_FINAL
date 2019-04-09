@@ -1,7 +1,7 @@
 #!/usr/bin/python
-# LINEA 4 y 5 SOLO SI SALTA EL ERROR DEL IPV6
+# LINEA 5 y 6 SOLO SI SALTA EL ERROR DEL IPV6
 # La direccion para ipv6 no es necesaria para  este programa 
-# entonces añadimos la linea 4 y 5 que elimina las advertencias para que no salte el WARNING
+# entonces añadimos la linea 5 y 6 que elimina las advertencias para que no salte el WARNING
 import logging
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 
