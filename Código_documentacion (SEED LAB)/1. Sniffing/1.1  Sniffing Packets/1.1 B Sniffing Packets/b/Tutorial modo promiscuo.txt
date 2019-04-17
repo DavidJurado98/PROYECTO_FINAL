@@ -1,4 +1,4 @@
-#Para poner la interfaz de red en modo promiscuo nos tenemos que ir a la terminal como root y poner lo siguiente.
+#Para poner la interfaz de red en modo promiscuo nos tenemos que ir a la terminal como root y poner lo siguiente:
 
 $ ifconfig enp0s3 promisc
 
