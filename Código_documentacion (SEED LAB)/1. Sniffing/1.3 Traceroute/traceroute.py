@@ -1,9 +1,9 @@
 #!/usr/bin/python
 from scapy.all import *
 
-print "===============[TRACEROUTER]==============="
+print "=======================[TRACEROUTE]======================="
 #Introducimos la direccion:
-direccion = "www.INTRODUCEWEBAQUI.com"
+direccion = "www.google.com"
 for ttl in range(1, 28):
     pkt = IP(dst=direccion, ttl=ttl) / UDP(dport=33434)
     # Envia los paquetes y obtiene un reply
@@ -13,10 +13,10 @@ for ttl in range(1, 28):
         break
     elif reply.type == 3:
         # Llega con exito
-        print "=========================================================="
+	print "=========================================================="
         print "Ruta trazada con exito a la direccion:", reply.src
-        print "=========================================================="
-        break
+	print "=========================================================="
+	break
     else:
         # Esta en proceso de llegar a su destino
-        print "Router %i con exito:"% ttl , reply.src
+        print "Router %i con exito:"% ttl,reply.src
