@@ -11,7 +11,6 @@ for ttl in range(1, 28):
     reply = sr1(pkt, verbose=0)
     if reply is None:
         # Si no recibe el reply se para
-	
         break
     elif reply.type == 3:
         # Llega con exito
