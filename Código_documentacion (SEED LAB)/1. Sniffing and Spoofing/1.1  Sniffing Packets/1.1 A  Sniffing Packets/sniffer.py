@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: UTF-8 -*-
 # LINEA 5 y 6 SOLO SI SALTA EL WARNING DEL IPV6
 # La direccion para ipv6 no es necesaria para  este programa 
 # entonces añadimos la linea 5 y 6 que elimina las advertencias para que no salte el WARNING
