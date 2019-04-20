@@ -13,7 +13,7 @@ for ttl in range(1, 28):
         # Si no recibe el reply se para
         break
     elif reply.type == 3:
-        # Llega con exito
+        # Llega con exito a su destino
 	print "=========================================================="
         print "Ruta trazada con exito a la direccion:", reply.src
 	print "=========================================================="
