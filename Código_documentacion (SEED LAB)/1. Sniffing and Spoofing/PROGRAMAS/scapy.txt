@@ -1,5 +1,4 @@
-#Scapy es una biblioteca de Python para la manipulación de paquetes de la red.
+#Scapy es una biblioteca de Python para la manipulaciÃ³n de paquetes de la red.
 
 #Instalacion:
 $ sudo pip install scapy
-$ apt-get update
