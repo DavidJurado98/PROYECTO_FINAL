@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+# -*- coding: UTF-8 -*-
 from scapy.all import *
 def print_pkt(pkt):
   pkt.show()
