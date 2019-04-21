@@ -4,7 +4,7 @@ from scapy.all import *
 
 print "=======================[TRACEROUTE]======================="
 #Introducimos la direccion:
-direccion = "www.iana.org"
+direccion = "www.ejemplo.com"
 for ttl in range(1, 28):
     pkt = IP(dst=direccion, ttl=ttl) / UDP(dport=33434)
     #El puerto 33434 es el traceroute para la localizacion de rutas.
