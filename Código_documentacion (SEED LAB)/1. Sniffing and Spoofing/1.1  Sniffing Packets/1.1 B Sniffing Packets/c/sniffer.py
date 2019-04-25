@@ -3,4 +3,4 @@
 from scapy.all import *
 def print_pkt(pkt):
 	pkt.show()
-pkt = sniff(prn=lambda x: xsprintf("ip broadcast 255.255.255.0"))
+pkt = sniff(filter='net 8.8.8.0/24', prn=print_pkt)
