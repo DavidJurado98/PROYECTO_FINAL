@@ -1,0 +1,3 @@
+options {
+dump-file "/var/cache/bind/dump.db";
+};
