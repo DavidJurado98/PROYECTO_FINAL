@@ -9,6 +9,5 @@ $TTL 3D
 
 101	IN	PTR	www.example.com.
 102	IN	PTR	mail.example.com.
-10	IN	PTR	ns.example.com.
-
-
+4	IN	PTR	ns.example.com.
+#La linea doce como la maquina que lo sirve es la 192.168.0.4 ponemos el 4
