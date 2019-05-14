@@ -1,3 +1,4 @@
+#Hay que añadir estas lineas en el archivo /etc/bind/named.conf
 zone "example.com" {
     type master;
     file "/var/cache/bind/example.com.db";
