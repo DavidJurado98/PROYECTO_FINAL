@@ -11,6 +11,7 @@ $TTL 3D
 
 www	IN	A	192.168.0.101
 mail	IN	A	192.168.0.102
-ns	IN	A	192.168.0.10
+ns	IN	A	192.168.0.4
 *.example.com.	IN	A 192.168.0.100
- 
+
+#La linea 14 ponemos la IP de la maquina que sirve el DNS (192.168.0.4)
