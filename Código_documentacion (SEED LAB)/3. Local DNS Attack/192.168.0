@@ -10,5 +10,5 @@ $TTL 3D
 101	IN	PTR	www.example.com.
 102	IN	PTR	mail.example.com.
 
-En la linea 14 pondremos la ip de la maquina servidor, la 192.168.0.10, que en mi caso es la 192.168.0.4 (en mi caso en vez de 10 seria 4)
+#En la linea 14 pondremos la ip de la maquina servidor, la 192.168.0.10, que en mi caso es la 192.168.0.4 (en mi caso en vez de 10 seria 4)
 10	IN	PTR	ns.example.com.
