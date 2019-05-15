@@ -6,8 +6,9 @@ $TTL 3D
 		4W
 		1D)
 @	IN	NS	ns.example.com.
-
+#En esta linea 10 ponemos la ip que tendra el dns cuando hagamos nslookup en la maquina usuario, es decir, la 192.168.0.101.
 101	IN	PTR	www.example.com.
 102	IN	PTR	mail.example.com.
-4	IN	PTR	ns.example.com.
-#La linea doce como la maquina que lo sirve es la 192.168.0.4 ponemos el 4
+
+En la linea 14 pondremos la ip de la maquina servidor, la 192.168.0.10, que en mi caso es la 192.168.0.4 (en mi caso en vez de 10 seria 4)
+10	IN	PTR	ns.example.com.
