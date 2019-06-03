@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>
+Malicious Web
+</title>
+</head>
+<body>
+<a href="http://www.csrflabattacker.com/agregaramigo/index.html">Agregar a Boby</a>
+<br><br>
+<a href="http://www.csrflabattacker.com/bobyheroe/index.html">Agregar en la biografia "Boby es un heroe"</a>
+
+</body>
+</html>
